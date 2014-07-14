@@ -3,9 +3,6 @@ Druid
 
 private iOS library, packing common codes
 
-cp.sh
------------------------
-```bash
-cp -r ${TARGET_DIR}/Druid.bundle ./
-cp -r ${TARGET_DIR}/Druid.framework ./
-```
+
+source
+~/Library/Developer/Xcode/DerivedData/Druid-aatlyokeikpxmnaafjrcavjmmktv/Build/Products/Debug-iphonesimulator
