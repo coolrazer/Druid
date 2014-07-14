@@ -1,5 +1,5 @@
 //
-//  DrArrayDataSource.h
+//  DRArrayDataSource.h
 //  Druid
 //
 //  Created by kuying on 14-7-14.
@@ -10,7 +10,7 @@
 
 typedef void (^TableViewCellConfigureBlock)(id cell, id item);
 
-@interface DrArrayDataSource : NSObject <UITableViewDataSource>
+@interface DRArrayDataSource : NSObject <UITableViewDataSource>
 
 - (id)initWithItems:(NSArray *)anItems cellIdentifier:(NSString *)aCellIdentifier configureCellBlock:(TableViewCellConfigureBlock)aConfigureCellBlock;
 
