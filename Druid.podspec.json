@@ -20,7 +20,7 @@
   "resources": "Druid.bundle",
   "preserve_paths": "Druid.framework",
   "frameworks": "Druid",
-  "source_files": "Druid.framework/Headers",
+  "source_files": "Druid.framework/Versions/A/Headers",
   "xcconfig": { "FRAMEWORK_SEARCH_PATHS" : "$(PODS_ROOT)/Druid" },
   "requires_arc": true,
   "dependencies": {
@@ -32,6 +32,9 @@
     ],
 	"AFNetworking-RACExtensions": [
 	  "~> 0.1"
+	],
+	"UIColor+MLPFlatColors": [
+	  "~> 1.0"
 	]
   }
 }
