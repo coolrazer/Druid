@@ -1,0 +1,35 @@
+{
+  "name": "Druid",
+  "version": "0.0.1",
+  "summary": "A private iOS library to packaging common codes.",
+  "homepage": "https://github.com/coolrazer/Druid",
+  "license": {
+    "type": "PRIVATE"
+  },
+  "authors": {
+    "coolrazer": "cooling.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/coolrazer/Druid.git"
+  },
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8"
+  },
+  "resources": "Druid.bundle",
+  "preserve_paths": "Druid.framework",
+  "frameworks": "Druid",
+  "xcconfig": { "FRAMEWORK_SEARCH_PATHS" : "$(PODS_ROOT)/Druid" },
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.0"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.0"
+    ],
+	"AFNetworking-RACExtensions": [
+	  "~> 0.1"
+	]
+  }
+}
